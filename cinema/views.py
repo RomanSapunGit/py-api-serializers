@@ -1,5 +1,5 @@
 # write views here
-from django_rest.serializers import Serializer
+from rest_framework.serializers import Serializer
 from rest_framework.viewsets import ModelViewSet
 
 from cinema.models import Movie, MovieSession, CinemaHall, Actor, Genre
